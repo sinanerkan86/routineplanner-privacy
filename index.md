@@ -18,8 +18,8 @@ handles and why.
   app has no account, I don't run a server and I never receive this data.
 - The app shows ads through **Google AdMob**. Google may collect device and usage information
   to show and measure ads, as described below.
-- The optional "remove ads" purchase is handled by **Google Play**. I don't see your payment
-  details.
+- The optional purchases ("remove ads" and "Pro") are handled by **Google Play**. I don't see
+  your payment details.
 
 ## Information stored on your device
 
@@ -29,7 +29,8 @@ The app saves the following in a local database and settings file on your phone:
   hours;
 - your daily progress: when you started a day, the entries you logged and your history;
 - app settings such as language, clock format and notification preferences;
-- whether "remove ads" has been purchased.
+- the notification sound chosen for each routine;
+- whether "remove ads" or "Pro" has been purchased.
 
 This data never leaves your device through the app. It is not sent to me or to any third
 party. Deleting a routine deletes its data; uninstalling the app deletes everything.
@@ -60,8 +61,9 @@ Google's use of this data is described in
 
 ## Purchases (Google Play Billing)
 
-Buying "remove ads" is processed entirely by Google Play. The app only receives confirmation
-that the purchase exists so it can hide ads, including after reinstalling. Payment details are
+Buying "remove ads" or "Pro" is processed entirely by Google Play. The app only receives
+confirmation that a purchase exists so it can hide ads and unlock Pro features (such as a
+notification sound per routine), including after reinstalling. Payment details are
 handled under [Google Play's terms and Google's Privacy Policy](https://policies.google.com/privacy).
 
 ## Permissions
@@ -105,8 +107,8 @@ işlediğini açıklar.
   saklanır. Uygulamada hesap yoktur, bir sunucum yoktur ve bu verilere hiçbir şekilde erişmem.
 - Uygulama **Google AdMob** aracılığıyla reklam gösterir. Google, aşağıda açıklandığı gibi
   reklam göstermek ve ölçmek için cihaz ve kullanım bilgisi toplayabilir.
-- İsteğe bağlı "reklamları kaldır" satın alımı **Google Play** tarafından yürütülür. Ödeme
-  bilgilerinizi görmem.
+- İsteğe bağlı satın alımlar ("reklamları kaldır" ve "Pro") **Google Play** tarafından
+  yürütülür. Ödeme bilgilerinizi görmem.
 
 ## Cihazınızda saklanan bilgiler
 
@@ -116,7 +118,8 @@ Uygulama aşağıdakileri telefonunuzdaki yerel bir veritabanında ve ayar dosya
   yasak saatler;
 - günlük ilerlemeniz: günü ne zaman başlattığınız, kaydettiğiniz girişler ve geçmişiniz;
 - dil, saat biçimi ve bildirim tercihleri gibi uygulama ayarları;
-- "reklamları kaldır" satın alımının yapılıp yapılmadığı.
+- her rutin için seçilen bildirim sesi;
+- "reklamları kaldır" veya "Pro" satın alımının yapılıp yapılmadığı.
 
 Bu veriler uygulama aracılığıyla cihazınızdan çıkmaz; bana veya herhangi bir üçüncü tarafa
 gönderilmez. Bir rutini silmek o rutinin verilerini siler; uygulamayı kaldırmak tüm verileri
@@ -150,9 +153,9 @@ sayfalarında açıklanmaktadır.
 
 ## Satın alımlar (Google Play Faturalandırma)
 
-"Reklamları kaldır" satın alımı tamamen Google Play tarafından işlenir. Uygulama yalnızca,
-reklamları gizleyebilmek için (yeniden yüklemeden sonra da) satın alımın var olduğu bilgisini
-alır. Ödeme bilgileri [Google Play şartları ve Google Gizlilik Politikası](https://policies.google.com/privacy?hl=tr)
+"Reklamları kaldır" veya "Pro" satın alımı tamamen Google Play tarafından işlenir. Uygulama
+yalnızca, reklamları gizleyebilmek ve Pro özelliklerini (rutin başına bildirim sesi gibi)
+açabilmek için (yeniden yüklemeden sonra da) satın alımın var olduğu bilgisini alır. Ödeme bilgileri [Google Play şartları ve Google Gizlilik Politikası](https://policies.google.com/privacy?hl=tr)
 kapsamında işlenir.
 
 ## İzinler
