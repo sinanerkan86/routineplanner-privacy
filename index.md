@@ -18,6 +18,8 @@ handles and why.
   app has no account, I don't run a server and I never receive this data.
 - The app shows ads through **Google AdMob**. Google may collect device and usage information
   to show and measure ads, as described below.
+- The optional "remove ads" purchase is handled by **Google Play**. I don't see your payment
+  details.
 
 ## Information stored on your device
 
@@ -26,7 +28,8 @@ The app saves the following in a local database and settings file on your phone:
 - the routines you create: name, color, daily targets, time windows, reminders and off-limit
   hours;
 - your daily progress: when you started a day, the entries you logged and your history;
-- app settings such as language, clock format and notification preferences.
+- app settings such as language, clock format and notification preferences;
+- whether "remove ads" has been purchased.
 
 This data never leaves your device through the app. It is not sent to me or to any third
 party. Deleting a routine deletes its data; uninstalling the app deletes everything.
@@ -55,6 +58,12 @@ Google's use of this data is described in
 [Google's Privacy Policy](https://policies.google.com/privacy) and
 [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites).
 
+## Purchases (Google Play Billing)
+
+Buying "remove ads" is processed entirely by Google Play. The app only receives confirmation
+that the purchase exists so it can hide ads, including after reinstalling. Payment details are
+handled under [Google Play's terms and Google's Privacy Policy](https://policies.google.com/privacy).
+
 ## Permissions
 
 - **Notifications** — to remind you when a routine's next slot opens and to show your
@@ -64,7 +73,7 @@ Google's use of this data is described in
   changes.
 - **Foreground service** — only if you turn on "Keep open allowances on screen" in settings, to
   keep a countdown notification on screen while an allowance is open.
-- **Internet / network state** — used by the ad library.
+- **Internet / network state** — used by the ad and billing libraries.
 
 ## Children
 
@@ -96,6 +105,8 @@ işlediğini açıklar.
   saklanır. Uygulamada hesap yoktur, bir sunucum yoktur ve bu verilere hiçbir şekilde erişmem.
 - Uygulama **Google AdMob** aracılığıyla reklam gösterir. Google, aşağıda açıklandığı gibi
   reklam göstermek ve ölçmek için cihaz ve kullanım bilgisi toplayabilir.
+- İsteğe bağlı "reklamları kaldır" satın alımı **Google Play** tarafından yürütülür. Ödeme
+  bilgilerinizi görmem.
 
 ## Cihazınızda saklanan bilgiler
 
@@ -104,7 +115,8 @@ Uygulama aşağıdakileri telefonunuzdaki yerel bir veritabanında ve ayar dosya
 - oluşturduğunuz rutinler: ad, renk, günlük hedefler, zaman aralıkları, hatırlatıcılar ve
   yasak saatler;
 - günlük ilerlemeniz: günü ne zaman başlattığınız, kaydettiğiniz girişler ve geçmişiniz;
-- dil, saat biçimi ve bildirim tercihleri gibi uygulama ayarları.
+- dil, saat biçimi ve bildirim tercihleri gibi uygulama ayarları;
+- "reklamları kaldır" satın alımının yapılıp yapılmadığı.
 
 Bu veriler uygulama aracılığıyla cihazınızdan çıkmaz; bana veya herhangi bir üçüncü tarafa
 gönderilmez. Bir rutini silmek o rutinin verilerini siler; uygulamayı kaldırmak tüm verileri
@@ -136,6 +148,13 @@ Google'ın bu verileri nasıl kullandığı
 [Google'ın, hizmetlerini kullanan site veya uygulamalardan gelen bilgileri nasıl kullandığı](https://policies.google.com/technologies/partner-sites?hl=tr)
 sayfalarında açıklanmaktadır.
 
+## Satın alımlar (Google Play Faturalandırma)
+
+"Reklamları kaldır" satın alımı tamamen Google Play tarafından işlenir. Uygulama yalnızca,
+reklamları gizleyebilmek için (yeniden yüklemeden sonra da) satın alımın var olduğu bilgisini
+alır. Ödeme bilgileri [Google Play şartları ve Google Gizlilik Politikası](https://policies.google.com/privacy?hl=tr)
+kapsamında işlenir.
+
 ## İzinler
 
 - **Bildirimler** — bir rutinin sıradaki slotu açıldığında size hatırlatmak ve ilerlemenizi
@@ -146,7 +165,7 @@ sayfalarında açıklanmaktadır.
   hatırlatıcıları yeniden kurmak için.
 - **Ön plan hizmeti** — yalnızca ayarlarda "Açık hakları ekranda tut" seçeneğini açarsanız, bir
   hak açıkken geri sayan bildirimi ekranda tutmak için.
-- **İnternet / ağ durumu** — reklam kütüphanesi tarafından kullanılır.
+- **İnternet / ağ durumu** — reklam ve faturalandırma kütüphaneleri tarafından kullanılır.
 
 ## Çocuklar
 
